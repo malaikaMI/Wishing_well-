@@ -1,0 +1,31 @@
+#map-container {
+	height: 400px;
+	border-radius: 16px 16px;
+	border-color: #fff;
+	border-style: solid;
+	box-shadow: 2px 2px 10px #B1B1B1;
+	margin-top: 25px;
+	border-width: 7px;
+}
+
+#map-canvas {
+	height: 384px;
+	width: 100%;
+}
+
+#sitewide-header {
+	background-image: image-url('home-bg.jpg');
+}
+
+#new-post-header {
+	background-image: image-url('new-post-bg.jpg');	
+}
+
+#btn-navbar-search {
+	position: absolute;
+	left: -9999999px;
+}
+
+input#search.form-control {
+	color:white;
+}

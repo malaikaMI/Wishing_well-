@@ -1,0 +1,18 @@
+<div class="row">
+	<div class="col-md-12">
+		<h1 class="heading">Posts</h1>
+	</div>
+	<% @posts.each do |post| %>
+	<div class="col-md-3">
+		<div class="thumbnail">
+			<%= link_to post do %>
+				<%= image_tag post.image, class: 'post-images' %>
+			<% end %>
+			<p>
+				<strong><%= link_to post.title, post %></strong>
+			</p>
+			<p class="price"><%= number_to_currency(post.cost) %></p>
+		</div>
+	</div>
+	<% end %>
+</div>
