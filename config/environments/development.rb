@@ -1,10 +1,6 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.default_url_options = { host: 'heroku.com' }
-  config.action_mailer.perform_deliveries = true
-  config.action_mailer.default_url_options = { host: 'heroku.com' }
-  config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     user_name:      'apikey',
     password:       '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',
