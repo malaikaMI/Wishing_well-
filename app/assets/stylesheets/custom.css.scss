@@ -1,5 +1,5 @@
 body{
-	background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 51%, rgba(219,219,219,1) 66%, rgba(254,254,254,1) 100%);
 }
 .post-images:hover {
     cursor: pointer;
@@ -7,19 +7,11 @@ body{
 
 #navbar-brand {
 	font-family: arial;
-	color: white;
+	color:white;
 }
 
 
-.thumbnail{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	max-width: 300px;
-	text-align: center;
-	font-family: arial;
-	margin: 20px;
-  }
 
-	
 	.login-card {
 		padding: 40px;
 		width: 274px;
@@ -41,6 +33,7 @@ body{
 		display: block;
 		margin-bottom: 10px;
 		position: relative;
+		background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
 	}
 	
 	.login-card input[type=text], input[type=password] {
@@ -73,7 +66,7 @@ body{
 		border: 0px;
 		color: #fff;
 		text-shadow: 0 1px rgba(0,0,0,0.1); 
-		background-color: #4d90fe;
+		background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
 		/* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
 	}
 	
@@ -81,7 +74,7 @@ body{
 		/* border: 1px solid #2f5bb7; */
 		border: 0px;
 		text-shadow: 0 1px rgba(0,0,0,0.3);
-		background-color: #357ae8;
+		background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
 		/* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
 	}
 	
@@ -124,6 +117,7 @@ body{
 		display: block;
 		margin-bottom: 10px;
 		position: relative;
+		background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
 	}
 	.signup-card input[type=text], input[type=password] {
 		height: 44px;
@@ -152,7 +146,6 @@ body{
 .new-post{
 	padding: 40px;
 	width: 500px;
-	background-color: #F7F7F7;
 	margin: 0 auto 10px;
 	border-radius: 2px;
 	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
@@ -166,9 +159,6 @@ body{
 	display: block;
 	margin-bottom: 10px;
 	position: relative;
-}
-.new-post-h1{
-	text-align: center;
 }
 
 $red: #CF2E3B;
@@ -220,7 +210,7 @@ $black: #333333;
 }
 
 .overlay-of-img{
-	color: white;
+	color: grey;
 }
 .footer-bottom {
 	
@@ -235,5 +225,5 @@ $black: #333333;
 }
 .overlay-of-img :hover{
 	opacity: 1.2;
-	color: grey;
+	color: white;
 }
