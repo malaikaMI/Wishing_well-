@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'sendgrid-ruby'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'rails_12factor', group: :production
 # devise for user authentication
 gem 'devise'
 # paperclip
