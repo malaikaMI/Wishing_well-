@@ -36,6 +36,8 @@ class PostsController < ApplicationController
     @post = Post.find(params[:id])
     if current_user == @post.user && @post.update(post_params)
       redirect_to @post
+      UserNotifier.send_signup_email(@user).deliver
+      redirect_to(@user, :notice => 'User created')
     else
       render :edit
     end
